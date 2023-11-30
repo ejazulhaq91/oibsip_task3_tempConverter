@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="./Flat-Icons.com-Square-Temperature.512.png">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Temprature Convertor</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Temparture Converter</h1>
+        </div>
+        <form action="#">
+            <div class="input">
+                <div>
+                    <label for="inputTemp">Temprature</label><br>
+                    <input type="number" name="inputTemp" id="inputTemp" class="tempValues">
+                </div>
+                <div>
+                    <label for="inputUnits">Unit</label><br>
+                    <select name="inputUnitList" id="inputUnits">
+                        <option value="celsius">Degree Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                    </select><br>
+                </div>
+            </div>
+            <div class="output">
+                    <label for="outputTemp">Result</label><br>
+                    <input type="text" name="outputValue" id="outputTemp" class="tempValues"><br>    
+            </div>
+            <div>
+                <button type="button" name="convertion" id="convertButton">Convert</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
